@@ -18,7 +18,7 @@ body{
 }
 
 .fas {
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 ul{
@@ -114,6 +114,16 @@ img{
     padding: 1rem 1rem 0 1rem;
     border-bottom: 3px solid #3d3d3d;
 
+}
+
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+    display: none;
+}
+
+.show {
+    display: block !important;
 }
 
 .tab-content {
